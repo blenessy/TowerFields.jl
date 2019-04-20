@@ -1,0 +1,12 @@
+name = "TowerFields"
+uuid = "966f651f-0e4a-48d5-b6e2-49a5b01b359b"
+authors = ["Zalan Blenessy"]
+version = "0.1.0"
+
+[extras]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+Profile = "9abbd945-dff8-562f-b5e8-e1ebf5ef1b79"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "BenchmarkTools", "Profile"]
